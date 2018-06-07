@@ -27,7 +27,6 @@ def match_ends(words):
         s = words[i]
         if len(s) >= 2 and s[0] == s[-1]:
             soma += 1
-
     # +++your code here+++
     return soma
 
