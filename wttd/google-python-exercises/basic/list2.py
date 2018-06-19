@@ -15,10 +15,11 @@
 # modify the passed in list.
 def remove_adjacent(nums):
     # +++your code here+++
-    if not nums:
-       return []
-    else:
-       return list(range(nums[0],nums[-1]+1))
+   # if not nums:
+   #    return []
+   # else:
+       if nums: list(range(nums[0],nums[-1]+1))
+       #return fco
 
 
 # E. Given two lists sorted in increasing order, create and return a merged
